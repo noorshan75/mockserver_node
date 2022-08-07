@@ -1,0 +1,24 @@
+{
+  "name": "mockapiserver",
+  "version": "1.0.0",
+  "description": "mock api server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "noor shan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^4.44.0",
+    "sequelize-auto-migrations": "^1.0.3",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
